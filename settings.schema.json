@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "x-unic-settings-version": 1,
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "listen": {"type": "string", "default": "127.0.0.1:42720"},
+    "credential_key": {"type": "string", "writeOnly": true, "minLength": 64, "maxLength": 64}
+  },
+  "required": ["credential_key"]
+}

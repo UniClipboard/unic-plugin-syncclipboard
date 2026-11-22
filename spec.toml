@@ -1,0 +1,12 @@
+manifest_version = 1
+id = "unic.syncclipboard"
+version = "0.1.0"
+api_version = 1
+kind = "go"
+module = "github.com/UniClipboard/unic-plugin-syncclipboard"
+package = "./cmd/unic-plugin-syncclipboard"
+capabilities = ["sync_backend"]
+transport_kind = "object_store"
+external_channels = true
+settings_schema = "settings.schema.json"
+settings_sha256 = "dd1eb4fc691212e6351b0ad652e9e6b8d3284942ba2db29b6221d18e3bd4205f"
