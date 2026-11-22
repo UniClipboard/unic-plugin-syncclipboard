@@ -8,10 +8,10 @@ channels and does not confer native device trust.
 
 1. Use a `unicd` build that supports `backend.authorize_channel` and
    `unic device channel-add`.
-2. Install the plugin from source. Put Go 1.27.3 or newer on `PATH` for the installer.
+2. Install the prebuilt plugin. The installer verifies its SHA-256 digest.
 
    ```sh
-   unic plugin install https://github.com/UniClipboard/unic-plugin-syncclipboard --build
+   unic plugin install https://github.com/UniClipboard/unic-plugin-syncclipboard --ref v0.1.0
    ```
 
 3. Generate a 32-byte random key as 64 hexadecimal characters. Save the
