@@ -11,7 +11,7 @@ channels and does not confer native device trust.
 2. Install the prebuilt plugin. The installer verifies its SHA-256 digest.
 
    ```sh
-   unic plugin install https://github.com/UniClipboard/unic-plugin-syncclipboard --ref v0.1.0
+   unic plugin install https://github.com/UniClipboard/unic-plugin-syncclipboard --ref v0.1.1
    ```
 
 3. Generate a 32-byte random key as 64 hexadecimal characters. Save the

@@ -47,7 +47,7 @@ type Backend struct {
 
 func (*Backend) Spec() plugin.Spec {
 	return plugin.Spec{
-		ID: ID, Version: "0.1.0", APIVersion: 1,
+		ID: ID, Version: "0.1.1", APIVersion: 1,
 		Capabilities:  []string{plugin.CapSyncBackend},
 		TransportKind: plugin.TransportObjectStore, ExternalChannels: true,
 		SettingsSHA256: fmt.Sprintf("%x", sha256.Sum256(schema)),

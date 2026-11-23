@@ -1,6 +1,7 @@
 manifest_version = 1
 id = "unic.syncclipboard"
-version = "0.1.0"
+version = "0.1.1"
+icon = "devices"
 api_version = 1
 kind = "go"
 module = "github.com/UniClipboard/unic-plugin-syncclipboard"
@@ -14,47 +15,47 @@ settings_sha256 = "dd1eb4fc691212e6351b0ad652e9e6b8d3284942ba2db29b6221d18e3bd42
 [[artifacts]]
 goos = "darwin"
 goarch = "amd64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-syncclipboard_darwin_amd64.tar.gz"
 executable = "unic-plugin-syncclipboard"
-sha256 = "712d61193e29f815c999a4e3c21e93327b6c52c5ff1198ed1651966a09f72cfd"
+sha256 = "5d18ae03169144a9bf27dd6edb41357710a58016441c7d177a2297389978cd7f"
 
 [[artifacts]]
 goos = "darwin"
 goarch = "arm64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-syncclipboard_darwin_arm64.tar.gz"
 executable = "unic-plugin-syncclipboard"
-sha256 = "a1059fc6af89f9249e5cf3ea540886248c76f6e490dae25bcceebdfc3e94c9e4"
+sha256 = "db58831ef4347ce7ff9db591b037b725ef789f1b1b128fc37dc2963a18cbd527"
 
 [[artifacts]]
 goos = "linux"
 goarch = "amd64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-syncclipboard_linux_amd64.tar.gz"
 executable = "unic-plugin-syncclipboard"
-sha256 = "444f9f6c971230842d9d572e476a1fecf0cee300fdec93ba36a9640b1a7a01c3"
+sha256 = "6cc9e00bbf7bb3b72090cf708573d75e0ed240c9a11bcf30b3a4993b400334ae"
 
 [[artifacts]]
 goos = "linux"
 goarch = "arm64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-syncclipboard_linux_arm64.tar.gz"
 executable = "unic-plugin-syncclipboard"
-sha256 = "f42283ec371d3b48099aa59b2288c7d7b822a30e1bb8eb01438db4f9de9aa53d"
+sha256 = "b64e82f48bb59d84f69a9d9c80007fba6c3b849995e35f25d32329090d62b715"
 
 [[artifacts]]
 goos = "windows"
 goarch = "amd64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-syncclipboard_windows_amd64.tar.gz"
 executable = "unic-plugin-syncclipboard.exe"
-sha256 = "a789c6bb8c2f05f1512701349ec03f1836013f3be2ce789ea691bcc530a362d0"
+sha256 = "927e00252d5789ea10ecde7b35a5dd01289285d86c638a5031c5e5bca9e817c3"
 
 [[artifacts]]
 goos = "windows"
 goarch = "arm64"
-release = "v0.1.0"
+release = "v0.1.1"
 asset = "unic-plugin-syncclipboard_windows_arm64.tar.gz"
 executable = "unic-plugin-syncclipboard.exe"
-sha256 = "245f41b430c30a0868baf283e883152105827811b3076ac966481ddab0eae34a"
+sha256 = "9c76a3892c889bd922e843a8403c39cb4d9570bab74626cb4eef7bbc0ee916f1"
